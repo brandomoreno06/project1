@@ -1,0 +1,49 @@
+.textNavigation {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.textUppercase {
+  text-transform: uppercase;
+}
+
+.textLight {
+  color: #ffffff;
+}
+
+.textDark {
+  color: #333333;
+}
+
+.textDark2{
+  color: #5c5c5c;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.textHeadingFont {
+  font-size: 36px;
+  font-weight: 400;
+  max-width: 100%;
+}
+
+.borderCircle {
+  outline: none;
+  border: none;
+  border-radius: 25px;
+}
+
+
+@media only screen and (max-width: 425px) {
+  .textHeadingFont {
+    font-size: 24px;
+  }
+
+  .textNavigation {
+    font-size: 14px;
+  }
+}

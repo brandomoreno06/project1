@@ -1,0 +1,52 @@
+.size {
+  width: 100%;
+  height: 995px;
+  padding-top: 175px;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  line-height: 30px;
+  margin-bottom: 10px;
+  max-width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subHeading {
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  max-width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imageContainer {
+  width: 1040px;
+  max-width: 100%;
+  height: 530px;
+  position: relative;
+}
+
+
+@media only screen and (max-width: 425px){
+  .size {
+    padding-top: 150px;
+    height: auto;
+  }
+
+  .heading {
+    padding: 0 20px;
+  }
+
+  .subHeading {
+    padding: 0 20px;
+  }
+}

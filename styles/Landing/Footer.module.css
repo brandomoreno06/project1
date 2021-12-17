@@ -1,0 +1,46 @@
+.size {
+  max-width: 100%;
+  height: 490px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.background {
+  background-image: url("/images/background_footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.imageContainer {
+  width: 150px;
+  height: 55px;
+  position: relative;
+}
+
+.copyright {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  max-width: 100%;
+}
+
+
+@media only screen and (max-width: 425px) {
+  .size {
+    height: 390px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .background {
+    background-image: none;
+  }
+}
